@@ -120,7 +120,7 @@
         </div>
 
         <div class="modal">
-            <div class="modal__container">
+            <div class="modal__container js-modal-container">
                 <div class="modal__close">
                     <i class="fa-solid fa-xmark js-modal-close"></i>
                 </div>
@@ -156,6 +156,7 @@
             const buyBtns = document.querySelectorAll('.js-buy-ticket')
             const modal = document.querySelector('.modal')
             const modalClose = document.querySelector('.js-modal-close')
+            const modalContainer = document.querySelector('.js-modal-container')
             function showBuyTickets() {
             modal.classList.add('open')
             }
@@ -166,6 +167,10 @@
                 buyBtn.addEventListener('click',showBuyTickets)
             }
             modalClose.addEventListener('click',hideBuyTickets)
+            modal.addEventListener('click',hideBuyTickets)
+            modalContainer.addEventListener('click', function(event) {
+            event.stopPropagation()
+            })
         </script>
 </body>
 
