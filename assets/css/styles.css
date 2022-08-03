@@ -95,3 +95,234 @@ html {
   font-weight: bold;
   text-shadow: 1px 0px 1px hwb(0 84% 16%);
 }
+
+#content .content__section {
+  text-align: center;
+}
+#content .section__heading {
+  padding: 64px 0px 0px;
+  line-height: 45px;
+  margin: 10px 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.section__description__heading {
+  margin: 15px 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-style: italic;
+  opacity: 0.6;
+}
+.content__section .about {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.5;
+}
+#content .members__list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+#content .member__item img {
+  border-radius: 4px;
+  margin: 16px 0px 0px;
+  width: 60%;
+}
+#content .member__item {
+  padding: 32px 0px;
+  float: left;
+  text-align: center;
+}
+
+.tour__date {
+  margin-top: 300px;
+  background-color: black;
+  min-height: 800px;
+  width: auto;
+}
+.tour__heading {
+  padding: 64px 0px 0px;
+  line-height: 45px;
+  margin: 10px 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: white;
+  text-align: center;
+}
+.tour__description {
+  margin: 15px 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-style: italic;
+  opacity: 0.6;
+  color: white;
+  text-align: center;
+}
+.tickets__list {
+  background-color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tickets__list li {
+  color: #757575;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 16px;
+  list-style-type: none;
+}
+.sold__out {
+  background-color: #f44336;
+  color: white;
+  padding: 3px 4px;
+}
+.number {
+  float: right;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  margin-right: 16px;
+  padding: 3px 8px;
+}
+
+.list__place {
+  margin-top: 32px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.place__item {
+  float: left;
+  background-color: #fff;
+  width: 33.3333%;
+}
+.place__img {
+  width: 100%;
+}
+.place__body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 12px;
+  margin-bottom: 24px;
+}
+.place__heading {
+  padding: 15px 0px;
+  font-size: 15px;
+}
+.place__time {
+  font-size: 15px;
+  padding: 0 0 15px 0;
+  opacity: 0.7;
+}
+.place__desc {
+  font-size: 15px;
+  padding: 0 0px 30px 0;
+}
+.place__buy__tickets {
+  color: white;
+  background-color: black;
+  margin: 0 0 16px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.place__buy__tickets:hover {
+  background-color: #939393;
+  color: black;
+}
+#contact {
+  max-width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__container {
+  background-color: #fff;
+  width: 900px;
+  min-height: 200px;
+  position: relative;
+}
+.modal__header {
+  background: #009688;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+.modal__icon__heading {
+  margin-right: 16px;
+}
+
+.modal__close {
+  position: absolute;
+  right: 0;
+  padding: 12px;
+  color: white;
+  cursor: pointer;
+  top: 0;
+}
+.modal__close:hover {
+  color: #000000;
+  opacity: 0.6;
+  background-color: #00b59dbb;
+}
+
+.modal__lable {
+  display: block;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.modal__body {
+  padding: 12px;
+}
+.modal__input {
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+.buy__tickets {
+  width: 100%;
+  background-color: #009688;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  text-transform: uppercase;
+}
+.check-modal {
+  font-weight: border;
+  font-size: 16px;
+}
+
+.buy__tickets:hover {
+  background-color: #939393;
+}
+
+.modal__footer {
+  text-align: right;
+  padding : 12px;
+}
+.modal__help a {
+  color:rgb(0, 128, 255);
+}
