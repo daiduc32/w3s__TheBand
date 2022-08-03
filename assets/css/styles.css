@@ -10,6 +10,7 @@ html {
 }
 
 #main {
+  font-size:15px;
 }
 
 #header {
@@ -226,6 +227,7 @@ html {
   padding: 0 0px 30px 0;
 }
 .place__buy__tickets {
+  border:none;
   color: white;
   background-color: black;
   margin: 0 0 16px;
@@ -251,6 +253,11 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  display:none;
+}
+
+.open {
+  display :flex;
 }
 .modal__container {
   background-color: #fff;
